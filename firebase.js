@@ -6,7 +6,7 @@ import { getStorage } from "firebase/storage";
 
 // Your Firebase configuration snippet
 const firebaseConfig = {
-    apiKey: "AIzaSyDhFy_7Nl_7W1C85wK0sDy4PFwsviif9GI",
+    apiKey: "your_api_key",
     authDomain: "thriftingapp-58288.firebaseapp.com",
     projectId: "thriftingapp-58288",
     storageBucket: "thriftingapp-58288.firebasestorage.app",
