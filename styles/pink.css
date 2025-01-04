@@ -1,0 +1,120 @@
+/* globals.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f9fc; /* Light neutral background */
+    font-family: 'Arial', sans-serif;
+    color: #33475b; /* Dark gray-blue for text */
+}
+
+h1, h2 {
+    color: #1d3557; /* Deep blue for headings */
+    font-weight: 600;
+}
+
+/* Form inputs */
+input, textarea {
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #cbd5e0; /* Light gray for borders */
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #ffffff; /* White background */
+}
+
+input:focus, textarea:focus {
+    border-color: #457b9d; /* Muted blue on focus */
+    box-shadow: 0 0 10px rgba(69, 123, 157, 0.3);
+}
+
+/* Buttons */
+button {
+    padding: 12px;
+    background-color: #457b9d; /* Muted blue background */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1d3557; /* Deep blue on hover */
+}
+
+/* Google Sign-In Button */
+.google-button {
+    padding: 12px;
+    background-color: #4285f4; /* Google blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.google-button:hover {
+    background-color: #357ae8; /* Slightly darker blue on hover */
+}
+
+.google-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Custom classes */
+.max-w-md {
+    max-width: 32rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+/* Additional classes for layout */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff; /* White card background */
+    border: 1px solid #e2e8f0; /* Light gray border */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.card:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.text-muted {
+    color: #718096; /* Muted gray for secondary text */
+}
